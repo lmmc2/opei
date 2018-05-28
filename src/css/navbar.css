@@ -1,0 +1,11 @@
+.ui.container.inv-lat-marg.mobile {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    max-width: 110% !important;
+}
+
+.ui.menu .ui.dropdown .menu>.item {
+    color: white !important;
+    background: rgba(0,0,0,.87) !important;
+    stroke-width: 0.25px !important;
+}

@@ -1,0 +1,19 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-image {
+  opacity: 0.2;
+  min-height: 360px;
+  object-fit: cover;
+}
+
+.carousel-button {
+  margin-top: 60px !important;
+}
+
+.carousel-button-container {
+  position: absolute;
+}

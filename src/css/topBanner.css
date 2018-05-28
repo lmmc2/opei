@@ -1,0 +1,15 @@
+@media (max-width: 728px) 
+{
+  .top-banner-container {
+    background: black;
+    padding: 40px;
+  }  
+}
+
+@media (min-width: 728px) 
+{
+  .top-banner-container {
+    background: black;
+    padding: 120px;
+  }  
+}

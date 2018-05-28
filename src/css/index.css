@@ -1,0 +1,35 @@
+.index-anchor {
+    display: block;
+    position: relative;
+    top: -40px;
+    visibility: hidden;
+}
+
+.index-content {
+  margin-top: 20px;
+}
+
+.index-page {
+  margin-top: 20px;
+	margin-bottom: 120px;
+	min-height: 1200px;
+}
+
+.index-sectionText {
+  text-align: justify;
+}
+
+.index-iframe {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.index-iframe iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
