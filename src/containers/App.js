@@ -8,6 +8,7 @@ import Practice from './Practice';
 import PracticeC from './PracticeC';
 import Spread from './Spread';
 import FAQ from './FAQ';
+import Ads from './Ads';
 
 export default class App extends Component {
   render() {
@@ -22,6 +23,7 @@ export default class App extends Component {
             <Route exact path='/pratique-pratica' component={PracticeC}/>
             <Route exact path='/divulgue' component={Spread}/>
             <Route exact path='/faq' component={FAQ}/>
+            <Route exact path='/ads' component={Ads}/>
           </Switch>
         </BrowserRouter>
         <Footer/>
