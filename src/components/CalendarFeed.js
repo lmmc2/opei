@@ -31,7 +31,7 @@ export default class HistoryFeed extends Component{
                 </Grid.Row>
                 <Grid.Row>
                     <Grid.Column floated='right'>
-                        <TimelineCard align='right' header='Contestamento de Questões' meta="16/09 - 22/09"/>
+                        <TimelineCard align='right' header='Contestamento de Questões' meta="02/09 - 08/09"/>
                     </Grid.Column>
                     <Grid.Column floated='left'>
                     </Grid.Column>
@@ -41,7 +41,7 @@ export default class HistoryFeed extends Component{
                         <Icon name="gift" size="huge" flipped='horizontally'></Icon>
                     </Grid.Column>
                     <Grid.Column>
-                        <TimelineCard align='left' header='Cerimônia de Premiação' meta="05/10"/>
+                        <TimelineCard align='left' header='Cerimônia de Premiação' meta="21/09"/>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
