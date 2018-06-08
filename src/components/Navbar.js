@@ -87,7 +87,7 @@ const NavBarDesktop = () => (
         <Dropdown.Item as={Link} to="/motivacao#historico">Histórico</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
-    <Menu.Item as={Link} content='Regimento' name='regulamento' to='/regulamento#regulamento'/>
+    <Menu.Item as={Link} content='Regulamento' name='regulamento' to='/regulamento#regulamento'/>
     <Dropdown text='Pratique' pointing="top" className='link item'>
       <Dropdown.Menu>
         <Dropdown.Item as={Link} to="/pratique-teorica#prova-teorica">Prova Teórica</Dropdown.Item>

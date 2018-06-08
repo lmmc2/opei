@@ -10,7 +10,7 @@ export default class FAQ extends Component{
 		const items = [
 			{
 				title: <p>Quando começam as inscrições dos alunos?</p>,
-				content: <p>Essa informação será divulgada na página do   <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/petinformatica/">Facebook</a> e no nosso  <Link to="/#calendario">site</Link>. O ideal é ficar atento nesses dois locais!</p>
+				content: <p>Já começaram! Você pode se inscrever clicando <a href="https://opei.cin.ufpe.br/2018">aqui</a>!</p>
 			},
 			{
 				title: <p>Sou um aluno. O que preciso para poder me inscrever na OPEI?</p>,
@@ -34,7 +34,7 @@ export default class FAQ extends Component{
 			},
 			{
 				title: <p>Quais são os assuntos que englobam a prova teórica?</p>,
-				content: <p>As provas da Modalidade Iniciação não exigem nenhum conhecimento especial. As tarefas abordam problemas de Lógica com conceitos básicos de Aritmética e Geometria, e são feitas com lápis e papel. Apesar de não necessitarem de conhecimento anterior, a prática com tarefas de anos anteriores ajuda a obter melhores resultados. Uma fonte de estudo e treinamento é o livro Jogos de Lógica, escrito pelo prof. Wellington Santos Martins, do Instituto de Informática da Universida Federal de Goiás.</p>
+				content: <p>As provas teóricas não exigem nenhum conhecimento especial. As tarefas abordam problemas de Lógica com conceitos básicos de Aritmética e Geometria, e são feitas com lápis e papel. Apesar de não necessitarem de conhecimento anterior, a prática com tarefas de anos anteriores ajuda a obter melhores resultados. Uma fonte de estudo e treinamento é o livro Jogos de Lógica, escrito pelo prof. Wellington Santos Martins, do Instituto de Informática da Universida Federal de Goiás.</p>
 			},
 			{
 				title: <p>Quanto tempo eu tenho para fazer a prova prática?</p>,
