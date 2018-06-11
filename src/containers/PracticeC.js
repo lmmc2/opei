@@ -15,19 +15,22 @@ export default class PracticeC extends Component {
                 year: "2017",
                 modality: "Modalidade C - Prática",
                 description: "Ensino Médio",
-                exam: "https://drive.google.com/file/d/190PcneDp7lcbX7DJDkw-9XyVUdSZzwnV/view?usp=sharing",
+				exam: "https://drive.google.com/file/d/190PcneDp7lcbX7DJDkw-9XyVUdSZzwnV/view?usp=sharing",
+				solutions: "https://drive.google.com/file/d/17mWguC5sswtZ3QaHyPqu4v8AncOLS34B/view?usp=sharing",
             },
             {
                 year: "2016",
                 modality: "Modalidade D - Prática",
                 description: "Ensino Médio",
-                exam: "https://drive.google.com/file/d/1ZPuUhRgJRikO3f95nI5eijNjADsulv3H/view?usp=sharing",
+				exam: "https://drive.google.com/file/d/1ZPuUhRgJRikO3f95nI5eijNjADsulv3H/view?usp=sharing",
+				solutions: "https://drive.google.com/file/d/16hkHwxggvT_C45z3skxj093wxjlKfWet/view?usp=sharing",
             },
             {
                 year: "2015",
                 modality: "Modalidade B - Prática",
                 description: "Ensino Médio",
-                exam: "https://drive.google.com/file/d/1Hlp6nMni0w6iwX99VB_iXaXnOSlx-EDk/view?usp=sharing",
+				exam: "https://drive.google.com/file/d/1Hlp6nMni0w6iwX99VB_iXaXnOSlx-EDk/view?usp=sharing",
+				solutions: "https://drive.google.com/file/d/19unCXlU5kuTPZ_u82f4F79qk4XbJcWaP/view?usp=sharing",
             },
 		];
 		const playlist = [
@@ -223,6 +226,12 @@ export default class PracticeC extends Component {
 					</Section>
 					<Section title="EXERCÍCIOS E PROBLEMAS">
 						<GenericMenu items={exercices}/>
+					</Section>
+					<Section title="QUESTÕES ANTIGAS">
+						<div className="practice-menuContainer">
+							<p className="index-sectionText">As questões das edições anteriores podem ser encontradas para resolução no site <a href="https://iudex.io">iudex.io</a>. Para acessá-las, você deve fazer login no website com uma conta de gmail, e depois ir na seção "Groups" no menu esquerdo. Para entrar no grupo da OPEI, basta clicar no botão "Join Group" e utilizar a chave de acesso a seguir: CKE8JMA. Todas as questões das edições anteriores estarão organizadas em problemsets e você poderá submeter as suas resoluções em C++, Java e Python!</p>
+							<br/><br/><Button secondary href="https://iudex.io/group/join/CKE8JMA">Acessar Questões Antigas!</Button>
+						</div>
 					</Section>
 					<div className="index-anchor" id="provas-antigas"/>
 					<Section id="provas-antigas" title="PROVAS ANTIGAS">
