@@ -52,7 +52,7 @@ export default class Home extends Component{
                     </Card>
                   </Card.Group>
                 </Section>
-                <Image style={{marginTop:"120px"}} centered size="huge" src="http://res.cloudinary.com/dkbuneg9h/image/upload/v1528478641/opei_patrocinio_rcfmvi.png"/>
+                <Image style={{marginTop:"20px"}} centered size="huge" src="http://res.cloudinary.com/dkbuneg9h/image/upload/v1534468738/opei_patrocinio_rcfmvi_wgktil.png"/>
             </div>
           </Navbar>
         );
