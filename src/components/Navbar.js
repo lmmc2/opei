@@ -38,6 +38,7 @@ const NavBarMobile = ({
       >
         <Menu.Item as={Link} content="Inscrição" to="/#inscricoes"/>
         <Menu.Item as={Link} content="Calendário" to="/#calendario"/>
+        <Menu.Item as={Link} content="Instruções" to="/#instrucoes"/>
         <Menu.Item as={Link} content="Contato" to="/#contato"/>
         <Menu.Item as={Link} content="Motivação" to="/motivacao#sobre"/>
         <Menu.Item as={Link} content="Regulamento" to="/regulamento#regulamento"/>
@@ -78,6 +79,7 @@ const NavBarDesktop = () => (
         <Dropdown.Item as={Link} to="/#inscricoes">Inscrições</Dropdown.Item>
         <Dropdown.Item as={Link} to="/#modalidades">Modalidades</Dropdown.Item>
         <Dropdown.Item as={Link} to="/#calendario">Calendário</Dropdown.Item>
+        <Dropdown.Item as={Link} to="/#instrucoes">Instruções</Dropdown.Item>
         <Dropdown.Item as={Link} to="/#contato">Contato</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>

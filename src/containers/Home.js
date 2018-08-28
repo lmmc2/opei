@@ -22,6 +22,7 @@ export default class Home extends Component{
                 <Section title="CALENDÁRIO">
                     <CalendarFeed/>
                 </Section>
+                <div className="index-anchor" id="instrucoes"/>
                 <Section title="INSTRUÇÕES">
                     <Instructions/>
                 </Section>
