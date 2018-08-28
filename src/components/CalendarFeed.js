@@ -26,7 +26,7 @@ export default class HistoryFeed extends Component{
                         <Icon name="pencil" size="huge" flipped='horizontally'></Icon>
                     </Grid.Column>
                     <Grid.Column>
-                        <TimelineCard align='left' header='Dia da Prova' meta="01/09"/>
+                        <TimelineCard align='left' header='Dia da Prova' meta="01/09" isExam={true}/>
                     </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
