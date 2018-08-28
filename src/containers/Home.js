@@ -6,6 +6,7 @@ import Section from './../components/Section';
 import ModalityFeed from './../components/ModalityFeed';
 import { Parallax } from 'react-parallax';
 import Navbar from './../components/Navbar';
+import Instructions from './../components/Instructions'
 
 export default class Home extends Component{
     render(){
@@ -20,6 +21,9 @@ export default class Home extends Component{
                 <div className="index-anchor" id="calendario"/>
                 <Section title="CALENDÁRIO">
                     <CalendarFeed/>
+                </Section>
+                <Section title="INSTRUÇÕES">
+                    <Instructions/>
                 </Section>
                 <Parallax
                     style={{marginTop: "120px"}}
