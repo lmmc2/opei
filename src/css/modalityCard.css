@@ -1,9 +1,14 @@
 .modality-card-extra {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
 }
 
 .modality-card-icon {
   margin-bottom: 10px !important;
   margin-right: 12px !important;
+}
+
+.modality-card-extra-info {
+    display: flex;
+    flex-direction: row;
 }

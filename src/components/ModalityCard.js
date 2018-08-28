@@ -13,8 +13,14 @@ export default class ModalityCard extends Component{
                 </Card.Content>
                 <Card.Content extra>
                     <div className="modality-card-extra">
-                        <Icon name='user' className="modality-card-icon"/>
-                        <div>{this.props.meta}</div>
+                        <div className="modality-card-extra-info">
+                            <Icon name='user' className="modality-card-icon"/>
+                            <div>{this.props.meta}</div>
+                        </div>
+                        <div className="modality-card-extra-info">
+                            <Icon name='clock outline' className="modality-card-icon"/>
+                            <div>{this.props.begin} às {this.props.end}</div>
+                        </div>
                     </div>
                 </Card.Content>
             </Card>
