@@ -6,7 +6,8 @@ import Section from './../components/Section';
 import ModalityFeed from './../components/ModalityFeed';
 import { Parallax } from 'react-parallax';
 import Navbar from './../components/Navbar';
-import Instructions from './../components/Instructions'
+import Instructions from './../components/Instructions';
+import DownloadPDF from  './../components/DownloadPDF';
 
 export default class Home extends Component{
     render(){
@@ -25,6 +26,10 @@ export default class Home extends Component{
                 <div className="index-anchor" id="instrucoes"/>
                 <Section title="INSTRUÇÕES">
                     <Instructions/>
+                </Section>
+                <div className="index-anchor" id="download"/>
+                <Section title="CARTÃO DE INSCRIÇÃO">
+                    <DownloadPDF />
                 </Section>
                 <Parallax
                     style={{marginTop: "120px"}}
