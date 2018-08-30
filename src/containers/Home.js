@@ -7,6 +7,7 @@ import ModalityFeed from './../components/ModalityFeed';
 import { Parallax } from 'react-parallax';
 import Navbar from './../components/Navbar';
 import Instructions from './../components/Instructions';
+import Map from './../components/Map';
 import DownloadPDF from  './../components/DownloadPDF';
 
 export default class Home extends Component{
@@ -26,6 +27,7 @@ export default class Home extends Component{
                 <div className="index-anchor" id="instrucoes"/>
                 <Section title="INSTRUÇÕES">
                     <Instructions/>
+                    <Map title="ufpe" iframe="https://www.google.com/maps/d/embed?mid=1pJnR62V1TUuBpvD3IRNRhJIWpF7Y5kZH"/>
                 </Section>
                 <div className="index-anchor" id="download"/>
                 <Section title="CARTÃO DE INSCRIÇÃO">
