@@ -32,7 +32,9 @@ export default class Slider extends Component{
 	        <div className="carousel-button-container">
 	          <Container textAlign="center">
 	              <Image src="https://res.cloudinary.com/dkbuneg9h/image/upload/v1524237124/opei_logo_n5taqn.svg" size="big" centered/>
-	              <Button size="large" className="carousel-button" href="/#download">Baixe seu cartão de inscrição!</Button>
+	              <Button size="large" className="carousel-button" href="/pratique-teorica#provas-antigas">Gabaritos das provas TEÓRICAS!</Button>
+								<br/>
+								<Button size="large" className="carousel-button" href="/pratique-pratica#provas-antigas">Gabarito da prova PRÁTICA!</Button>
 	          </Container>
 	        </div>
 	      </div>

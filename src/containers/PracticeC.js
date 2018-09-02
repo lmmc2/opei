@@ -11,6 +11,27 @@ import '../css/practice.css';
 export default class PracticeC extends Component {
 	render(){
 		const exams = [
+			{
+                year: "2018",
+                modality: "Modalidade C - Prática [C++]",
+                description: "Ensino Médio",
+				exam: "https://drive.google.com/file/d/1oGGMJC-ICyuq-JZza0-D_mu0GEfPmnoH/view?usp=sharing",
+				solutions: "https://drive.google.com/file/d/1lh1Du30GXL-VTwrXcjXf4KOX4damcc8o/view?usp=sharing",
+            },
+			{
+                year: "2018",
+                modality: "Modalidade C - Prática [JAVA]",
+                description: "Ensino Médio",
+				exam: "https://drive.google.com/file/d/1oGGMJC-ICyuq-JZza0-D_mu0GEfPmnoH/view?usp=sharing",
+				solutions: "https://drive.google.com/file/d/19SZclB4Gx4SeuOhCaTpHUE-cbDsO9tIg/view?usp=sharing",
+            },
+			{
+                year: "2018",
+                modality: "Modalidade C - Prática [PYTHON]",
+                description: "Ensino Médio",
+				exam: "https://drive.google.com/file/d/1oGGMJC-ICyuq-JZza0-D_mu0GEfPmnoH/view?usp=sharing",
+				solutions: "https://drive.google.com/file/d/1AYAUlZr1bVhT_rVxyMsAy2RA8O22O4XS/view?usp=sharing",
+            },
             {
                 year: "2017",
                 modality: "Modalidade C - Prática",

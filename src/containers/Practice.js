@@ -10,6 +10,20 @@ export default class Practice extends Component {
 	render(){
 		const exams = [
             {
+                year: "2018",
+                modality: "Modalidade A - Teórica",
+                description: "8º e 9º anos",
+                exam: "https://drive.google.com/file/d/1YACAFhWRsQf5_I7qAS9UsUmIZoXAv_rm/view?usp=sharing",
+                solutions: "https://drive.google.com/file/d/1Hfgrp6ovPBJhJ5oeNZi8La-T2eAKJ8Mc/view?usp=sharing",
+            },
+            {
+                year: "2018",
+                modality: "Modalidade B - Teórica",
+                description: "Ensino Médio",
+                exam: "https://drive.google.com/file/d/1B-q6LMVpbJqy62s3HwbqzCoCUK5nMLa7/view?usp=sharing",
+                solutions: "https://drive.google.com/file/d/1IlkjJXSGWkx8trae0NpAQZs4krGdsuED/view?usp=sharing",
+            },
+            {
                 year: "2017",
                 modality: "Modalidade A - Teórica",
                 description: "8º e 9º anos",
