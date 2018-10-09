@@ -17,3 +17,14 @@
 .carousel-button-container {
   position: absolute;
 }
+
+.duvidas, .duvidas > a:hover, .duvidas > a:visited {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.duvidas > a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
