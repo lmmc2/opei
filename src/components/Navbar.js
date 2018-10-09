@@ -46,7 +46,7 @@ const NavBarMobile = ({
         <Menu.Item as={Link} content="Pratique - Teórica" to="/pratique-teorica#prova-teorica"/>
         <Menu.Item as={Link} content="Pratique - Pratica" to="/pratique-pratica#prova-pratica"/>
         <Menu.Item as={Link} content="Divulgue" to="/divulgue#cartaz"/>
-        <Menu.Item as={Link} content="FAQ" to="/faq#perguntas-frequentes"/>
+        <Menu.Item as={Link} content="Perguntas Frequentes" to="/faq#perguntas-frequentes"/>
       </Sidebar>
     <Sidebar.Pushable as={Segment} style={{marginTop: "-1px"}}>
       <Sidebar.Pusher
@@ -100,7 +100,7 @@ const NavBarDesktop = () => (
       </Dropdown.Menu>
     </Dropdown>
     <Menu.Item as={Link} content='Divulgue' name='divulgue' to='/divulgue#cartaz'/>
-    <Menu.Item as={Link} content='FAQ' name='faq' to='/faq#perguntas-frequentes'/>
+    <Menu.Item as={Link} content='Perguntas Frequentes' name='faq' to='/faq#perguntas-frequentes'/>
   </Menu>
 );
 
