@@ -34,7 +34,7 @@ export default class Slider extends Component{
 	              <Image src="https://res.cloudinary.com/dkbuneg9h/image/upload/v1524237124/opei_logo_n5taqn.svg" size="big" centered/>
 								<br></br>
 								<div className="duvidas">
-									<a href="/faq#perguntas-frequentes">Dúvidas? Confira as perguntas mais frequentes!</a>
+									<a href="/faq#perguntas-frequentes">Dúvidas? <div className="underlined">Confira as perguntas mais frequentes!</div></a>
 								</div>
 	              <Button size="large" className="carousel-button" href="/pratique-teorica#provas-antigas">Gabaritos das provas <b>teóricas</b>!</Button>
 								<br></br>
